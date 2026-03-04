@@ -1,0 +1,54 @@
+[
+  {
+    "test": "catalog_hash",
+    "hash": "2b9a8fef8e8741d8cf1b0ee398f76d3f",
+    "type": "MD5",
+    "status": "FOUND"
+  },
+  {
+    "test": "bundle_format",
+    "name": "2b46ecfce855361ffa2e39095866e453.bundle",
+    "magic": "UnityFS\u0000",
+    "is_unity": true,
+    "size": 65552
+  },
+  {
+    "test": "bundle_format",
+    "name": "6c6162c1df7bca74bd48f06e54f2bf0d.bundle",
+    "magic": "UnityFS\u0000",
+    "is_unity": true,
+    "size": 60712
+  },
+  {
+    "test": "bundle_format",
+    "name": "3f30a711ef1bb32d8a58a99a66cc99b1.bundle",
+    "magic": "UnityFS\u0000",
+    "is_unity": true,
+    "size": 260454
+  },
+  {
+    "test": "bundle_modification",
+    "bundle": "7629011e1490e857dbed0eb8b33b302b.bundle",
+    "original_md5": "2f6cc27441d13dd5e63708dca89027ce",
+    "original_sha256": "f52bd82a9405e1d0b92d341b37664c0f02ef6a7f74ba6086dfe7f46d800f6265",
+    "original_size": 1619
+  },
+  {
+    "test": "catalog_bundle_hash",
+    "bundle": "7629011e1490e857dbed0eb8b33b302b.bundle",
+    "hashes_in_catalog": [
+      "4199b7eaad6184d521a05a12ff41b743",
+      "7629011e1490e857dbed0eb8b33b302b",
+      "06f6b9e33643b5193e7be869d7eebfa6",
+      "76366d883f5dee5b6ab541d1fa6cc969",
+      "68eb116b931e853fefc3048d5ea7f546"
+    ],
+    "status": "HASHES_FOUND"
+  },
+  {
+    "test": "crc_check",
+    "has_crc_settings": false,
+    "addressables_version": "2.7.4",
+    "status": "VULNERABLE"
+  }
+]

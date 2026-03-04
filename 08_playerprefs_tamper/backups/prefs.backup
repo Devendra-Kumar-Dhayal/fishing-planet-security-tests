@@ -1,0 +1,69 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="BobberBiteSound" type="int">0</pref>
+	<pref name="ControllerSensitivity" type="float">0.5</pref>
+	<pref name="InputType" type="int">0</pref>
+	<pref name="SoundVolume" type="float">0.5</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="unity.player_session_count" type="string">MQ==</pref>
+	<pref name="SnagsWarnings" type="int">0</pref>
+	<pref name="unity_connect.mega_session_id" type="string">NTVlYWE5NTUtNDkzYy1jODU2LTU4NTctYjU0MDcyMDUxNzA4</pref>
+	<pref name="Screenmanager Resolution Width" type="int">2560</pref>
+	<pref name="UseOnlyXboxHelps" type="int">0</pref>
+	<pref name="MotorboatEngineVolume" type="float">0.5</pref>
+	<pref name="EnvironmentVolume" type="float">0.5</pref>
+	<pref name="MouseSensitivity" type="float">0.5</pref>
+	<pref name="AntialiasingValue" type="int">0</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="IsFullScreen" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1440</pref>
+	<pref name="ShowLandingNet" type="int">0</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">1080</pref>
+	<pref name="unity_connect.installation_id" type="string">YTdlYTkxMDAtZThkNS1hODMwLTdhNWYtMGFjZGNiNjdhNTZk</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="additionalBindings" type="string">eyJJdGVtcyI6W119</pref>
+	<pref name="InvertController" type="int">0</pref>
+	<pref name="VoiceChatMuted" type="int">0</pref>
+	<pref name="RenderQuality" type="int">3</pref>
+	<pref name="I2 Language" type="string">RW5nbGlzaCAoVW5pdGVkIFN0YXRlcyk=</pref>
+	<pref name="Screenmanager Window Position Y" type="int">0</pref>
+	<pref name="UseOnlyPs4Helps" type="int">0</pref>
+	<pref name="SoundMusicVolume" type="float">0.2</pref>
+	<pref name="ShowTips" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1920</pref>
+	<pref name="VibrateIfNotTensioned" type="int">0</pref>
+	<pref name="OceanWaterValue" type="int">3</pref>
+	<pref name="IsPostFx" type="int">1</pref>
+	<pref name="VSync" type="int">0</pref>
+	<pref name="BobberScale" type="float">0.75</pref>
+	<pref name="CurrentLanguage" type="int">1</pref>
+	<pref name="ScreenResolutionWidth" type="int">2560</pref>
+	<pref name="VoiceChatVolume" type="float">0.5</pref>
+	<pref name="InvertMouse" type="int">0</pref>
+	<pref name="ScreenResolutionHeigth" type="int">1440</pref>
+	<pref name="bindingOverrides" type="string"></pref>
+	<pref name="unity.player_sessionid" type="string">MTY3NDU0Mzc2OTYyOTM0NDY4MQ==</pref>
+	<pref name="DebugInfo" type="int">0</pref>
+	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="unity.cloud_userid" type="string">YjNhNTc2NzYzMzlkZmVlNGNhYzYxZGFlMmViOTE3ODA=</pref>
+	<pref name="unity_connect.session_id" type="string">Mzc4N2RmYjEtZmEwMy1hY2E0LWM5ZmYtYTExOTU1NDkwZjQ5</pref>
+	<pref name="ShowDLCBuyInClubChat" type="int">1</pref>
+	<pref name="UnityGraphicsQuality" type="int">3</pref>
+	<pref name="InterfaceVolume" type="float">0.5</pref>
+	<pref name="DynWaterValue" type="int">2</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
+	<pref name="RodStandSignalizerAndBellVolume" type="float">0.8</pref>
+	<pref name="HideWhatsNew" type="int">0</pref>
+	<pref name="ReverseBoatBackwardsMoving" type="int">0</pref>
+	<pref name="Version" type="string">Ni4wLjYgKHJldmlzaW9uIDUyMzMyKQ==</pref>
+	<pref name="Vibrate" type="int">0</pref>
+	<pref name="SpeakerMode" type="int">7</pref>
+	<pref name="ShowCharacters" type="int">1</pref>
+	<pref name="MouseWheelValue" type="int">0</pref>
+	<pref name="RightHandedLayout" type="int">1</pref>
+	<pref name="LandingNetActionSound" type="int">1</pref>
+	<pref name="SSAO" type="int">0</pref>
+	<pref name="FightIndicator" type="int">0</pref>
+	<pref name="FishingIndicator" type="int">1</pref>
+	<pref name="ShowCharactersBubble" type="int">1</pref>
+</unity_prefs>

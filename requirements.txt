@@ -1,0 +1,5 @@
+frida
+frida-tools
+mitmproxy
+requests
+pycryptodome

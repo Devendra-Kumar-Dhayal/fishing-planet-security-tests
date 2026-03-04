@@ -1,0 +1,106 @@
+[
+  {
+    "test": "debuglink",
+    "target": "GameAssembly.debug",
+    "exists": false,
+    "status": "MEDIUM"
+  },
+  {
+    "test": "symbol_count",
+    "total": 4650,
+    "il2cpp": 241,
+    "mono": 118,
+    "unity": 7,
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_domain_get",
+    "address": "0x0000000003B2CE90",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_domain_get_assemblies",
+    "address": "0x0000000003B2CEB0",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_assembly_get_image",
+    "address": "0x0000000003B2C870",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_class_from_name",
+    "address": "0x0000000003B2C910",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_class_get_method_from_name",
+    "address": "0x0000000003B2C9B0",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_class_get_fields",
+    "address": "0x0000000003B2C940",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_field_get_value",
+    "address": "0x0000000003B2D1C0",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_field_set_value",
+    "address": "0x0000000003B2D1F0",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_field_static_get_value",
+    "address": "0x0000000003B2D210",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_field_static_set_value",
+    "address": "0x0000000003B2D220",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_runtime_invoke",
+    "address": "0x0000000003B2D7B0",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_object_new",
+    "address": "0x0000000003B2D6F0",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_string_new",
+    "address": "0x0000000003B2D820",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_thread_attach",
+    "address": "0x0000000003B2D890",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "dangerous_api",
+    "name": "il2cpp_thread_detach",
+    "address": "0x0000000003B2D8A0",
+    "status": "VULNERABLE"
+  }
+]

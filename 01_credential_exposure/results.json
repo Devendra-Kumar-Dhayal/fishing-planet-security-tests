@@ -1,0 +1,61 @@
+[
+  {
+    "test": "plaintext_credential",
+    "field": "clientID",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "plaintext_credential",
+    "field": "clientSecret",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "plaintext_credential",
+    "field": "encryptionKey",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "plaintext_credential",
+    "field": "productID",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "plaintext_credential",
+    "field": "sandboxID",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "plaintext_credential",
+    "field": "deploymentID",
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "eos_auth_token",
+    "status": "VULNERABLE",
+    "token_prefix": "eyJraWQiOiIyMDIyLTA2LTE0VDA2Oj",
+    "expires_in": 3599
+  },
+  {
+    "test": "sandbox_enumeration",
+    "status": "VULNERABLE",
+    "sandbox": "441b1561f48746059211ab905f4abc93",
+    "deployment": "5d0f3e9dab23484e8fcaa637e22e7def"
+  },
+  {
+    "test": "sandbox_enumeration",
+    "status": "VULNERABLE",
+    "sandbox": "p-vu3k6rtm4agl9ujhksw8ypg3dulb63",
+    "deployment": "6aa491d9dfba446cac2185d9b60d804c"
+  },
+  {
+    "test": "sandbox_enumeration",
+    "status": "VULNERABLE",
+    "sandbox": "p-3j4vjmbnadwmp9ubfm8ptg2f6a3q9v",
+    "deployment": "1d3af6aaca9948a2b3cea330d14b4fed"
+  },
+  {
+    "test": "encryption_key",
+    "status": "VULNERABLE",
+    "key_bits": 256
+  }
+]

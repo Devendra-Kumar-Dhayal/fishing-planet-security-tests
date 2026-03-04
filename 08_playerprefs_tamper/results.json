@@ -1,0 +1,92 @@
+[
+  {
+    "test": "debug_flag",
+    "current": 0,
+    "tamper_value": 1,
+    "status": "VULNERABLE"
+  },
+  {
+    "test": "version_spoof",
+    "current": "6.0.6 (revision 52332)",
+    "fake": "99.0.0 (revision 99999)",
+    "status": "TAMPERABLE"
+  },
+  {
+    "test": "session_id",
+    "field": "unity.cloud_userid",
+    "value": "b3a57676339dfee4cac61dae2eb91780",
+    "status": "EXPOSED"
+  },
+  {
+    "test": "session_id",
+    "field": "unity.player_sessionid",
+    "value": "1674543769629344681",
+    "status": "EXPOSED"
+  },
+  {
+    "test": "session_id",
+    "field": "unity.player_session_count",
+    "value": "1",
+    "status": "EXPOSED"
+  },
+  {
+    "test": "session_id",
+    "field": "unity_connect.session_id",
+    "value": "3787dfb1-fa03-aca4-c9ff-a11955490f49",
+    "status": "EXPOSED"
+  },
+  {
+    "test": "session_id",
+    "field": "unity_connect.installation_id",
+    "value": "a7ea9100-e8d5-a830-7a5f-0acdcb67a56d",
+    "status": "EXPOSED"
+  },
+  {
+    "test": "session_id",
+    "field": "unity_connect.mega_session_id",
+    "value": "55eaa955-493c-c856-5857-b54072051708",
+    "status": "EXPOSED"
+  },
+  {
+    "test": "graphics_exploit",
+    "setting": "RenderQuality",
+    "value": "3",
+    "description": "Lower quality = less visual clutter = easier to spot fish",
+    "status": "TAMPERABLE"
+  },
+  {
+    "test": "graphics_exploit",
+    "setting": "OceanWaterValue",
+    "value": "3",
+    "description": "Lower water quality = see through water more easily",
+    "status": "TAMPERABLE"
+  },
+  {
+    "test": "graphics_exploit",
+    "setting": "DynWaterValue",
+    "value": "2",
+    "description": "Dynamic water = affects fish visibility",
+    "status": "TAMPERABLE"
+  },
+  {
+    "test": "graphics_exploit",
+    "setting": "IsPostFx",
+    "value": "1",
+    "description": "Post-processing = affects visibility",
+    "status": "TAMPERABLE"
+  },
+  {
+    "test": "graphics_exploit",
+    "setting": "SSAO",
+    "value": "0",
+    "description": "Ambient occlusion = affects underwater visibility",
+    "status": "TAMPERABLE"
+  },
+  {
+    "test": "graphics_exploit",
+    "setting": "AntialiasingValue",
+    "value": "0",
+    "description": "AA settings = edge visibility",
+    "status": "TAMPERABLE"
+  }
+]

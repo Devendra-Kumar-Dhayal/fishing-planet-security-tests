@@ -1,0 +1,1242 @@
+[
+  {
+    "test": "premium_type",
+    "type_index": 4344,
+    "name": "PremiumRetailItemFullInfo",
+    "method_count": 8,
+    "field_count": 6,
+    "methods": [
+      "",
+      "InstanceOnOnRequestJoinClubFailed",
+      "",
+      "",
+      "AcceptClubJoinRequest",
+      "",
+      "",
+      "InstanceOnOnAcceptClubJoinRequestFailed"
+    ],
+    "fields": [
+      "_currency",
+      "_sum",
+      "_buyInfo",
+      "_image",
+      "_rt",
+      "_imageLdbl"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 4346,
+    "name": "PremiumShopHandler",
+    "method_count": 5,
+    "field_count": 2,
+    "methods": [
+      "",
+      "",
+      "InstanceOnOnDeclineClubJoinRequestSuccess",
+      "",
+      ""
+    ],
+    "fields": [
+      "PremiumShopPage",
+      "DiscountImage"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 4374,
+    "name": "PremiumShopMainHandler",
+    "method_count": 82,
+    "field_count": 80,
+    "methods": [
+      "InstanceOnSendClubJoinInviteFailed",
+      "",
+      "",
+      "InstanceOnAcceptJoinClubInviteSuccess",
+      "",
+      "",
+      "DeclineInvite",
+      "",
+      "",
+      "InstanceOnDeclineJoinClubInviteFailed",
+      "",
+      "",
+      "GetClubById",
+      "",
+      "",
+      "GetClubFailed",
+      "",
+      "",
+      "UnsubscribeGetClub",
+      "",
+      "",
+      "InstanceOnOnSearchClubsSuccess",
+      "",
+      "",
+      "GetUnreadInvitesCount",
+      "",
+      "",
+      "IsUnreadRequest",
+      "",
+      "",
+      "UnreadInvite",
+      "",
+      "",
+      "ReadInvite",
+      "",
+      "",
+      "Refresh",
+      "",
+      "",
+      "PreviewSaveClubLogo",
+      "",
+      "",
+      "InstanceOnOnPreviewSaveClubLogoFailed",
+      "",
+      "",
+      "InstanceOnOnBuySkinElementsSuccess",
+      "",
+      "",
+      "SaveClubLogo",
+      "",
+      "",
+      "InstanceOnOnSaveClubLogoFailed",
+      "",
+      "",
+      "get_Service",
+      "",
+      "",
+      "Dispose",
+      "",
+      "",
+      "OnOk",
+      "",
+      "",
+      "GetClubsLogo",
+      "",
+      "",
+      "OnGetClubsLogoFailed",
+      "",
+      "",
+      "<.ctor>b__5_0",
+      "",
+      "",
+      ".ctor",
+      "",
+      "",
+      "<LeaveClub>b__100_0",
+      "",
+      "",
+      "<PromoteConfirmDialog>b__141_0",
+      "",
+      "",
+      "<GetUnreadInvitesCount>b__187_0"
+    ],
+    "fields": [
+      "_emptyText",
+      "_empty",
+      "_scroll",
+      "MouseOverAndMovementTimeForStartAnim",
+      "MouseOverAndMovementAnimSpeed",
+      "_arrowLeft",
+      "_arrowRight",
+      "_btnLeft",
+      "_btnRight",
+      "_btnBack",
+      "_btnBackArrow",
+      "_btnBackHelpTitle",
+      "_menuPrefabItem",
+      "_menuPrefabItemLine",
+      "_menuPrefabContent",
+      "_prefabItemBig",
+      "_prefabItemSmall",
+      "_prefabItem",
+      "_prefabItemContent",
+      "_menuContentToggleGroup",
+      "_titleLeft",
+      "_titleRight",
+      "_titleLeftRt",
+      "_titleRightRt",
+      "_titlePondPasses",
+      "_titlePondPassesRt",
+      "_menuBg",
+      "_menuContent",
+      "_menuScrollbar",
+      "_itemsContent",
+      "_nav",
+      "_converter",
+      "_btnConverter",
+      "_hkprConverter",
+      "_titleConverter",
+      "_mouseOverAndMovement",
+      "_mouseOverAndMovementLeft",
+      "_runningStatus",
+      "_lastMenuItem",
+      "_menuItems",
+      "_items",
+      "_rtItems",
+      "_isInited",
+      "_index",
+      "_noAnimMovement",
+      "_selectedItemIndex",
+      "MoneyPacksAndPremiumAccounts",
+      "ScreenOffset",
+      "MaxItemsBig",
+      "MaxItemsSmall",
+      "XBig0",
+      "Xsmall0",
+      "Xsmall0PondPasses",
+      "Padding",
+      "PaddingPremiumAccountAndMoneyPack",
+      "MaxItemsWithoutScroll",
+      "AnimTime",
+      "Diff0",
+      "Diff",
+      "DiffHome",
+      "DiffNoSrcoll",
+      "_selectedParent",
+      "_productId",
+      "_category",
+      "_menuBgX0",
+      "_menuContentX0",
+      "_titleLeftRtX0",
+      "_titleRightRtX0",
+      "TitlePondPassesRtX0",
+      "TitlePondPassesRtXCenter",
+      "_rmbHelp",
+      "_mouseOverMovement",
+      "_isInitedContent",
+      "InitialIndexes",
+      "_isHideMenu",
+      "_isShowMenu",
+      "_isGeneratedAd",
+      "_generatedAd",
+      "_init0WithWaitingCoroutine",
+      "_inputType"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 4380,
+    "name": "PremiumShopMenuItemHandler",
+    "method_count": 33,
+    "field_count": 21,
+    "methods": [
+      "",
+      "BackToSearch",
+      "",
+      "",
+      "HideHelp",
+      "",
+      "",
+      "InstanceOnOnSearchClubsSuccess",
+      "",
+      "",
+      "SearchClubs",
+      "",
+      "",
+      "DoReset",
+      "",
+      "",
+      "Subscribe",
+      "",
+      "",
+      "LeaguesContextChanged",
+      "",
+      "",
+      "GetSeasonScreen",
+      "",
+      "",
+      "UpdateClubSuccess",
+      "",
+      "",
+      "LeagueChampResult",
+      "",
+      "",
+      "InitSortMenu",
+      ""
+    ],
+    "fields": [
+      "_categoryName",
+      "_discountImageLeft",
+      "_discountImageRight",
+      "_personalOfferIcon",
+      "_tgl",
+      "_imSelectedBg",
+      "_imSelectedRect",
+      "_imMouseOver",
+      "_rewardVideo",
+      "_empty",
+      "<IsLast>k__BackingField",
+      "OnActive",
+      "Gray",
+      "<Category>k__BackingField",
+      "<Products>k__BackingField",
+      "<LifetimeRemain>k__BackingField",
+      "_isPersonalOffers",
+      "_productsPondPassesDict",
+      "_curUpdateTime",
+      "UpdateTime",
+      "NewProductPrefix"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 4387,
+    "name": "PremiumShopRetailHandler",
+    "method_count": 31,
+    "field_count": 36,
+    "methods": [
+      "<.ctor>b__52_0",
+      "",
+      "",
+      "<.ctor>b__52_2",
+      "",
+      "",
+      "<.ctor>b__52_4",
+      "",
+      "",
+      ".ctor",
+      "",
+      "",
+      ".ctor",
+      "",
+      "",
+      "<InitInput>b__1",
+      "",
+      "",
+      "<InitInput>b__3",
+      "",
+      "",
+      "<InitInput>b__5",
+      "",
+      "",
+      "<InitInput>b__7",
+      "",
+      "",
+      "get_Countries",
+      "",
+      "",
+      "Update"
+    ],
+    "fields": [
+      "_buyClick",
+      "_arrowLeft",
+      "_arrowRight",
+      "_btnLeft",
+      "_btnRight",
+      "_itemPrefab",
+      "_itemsParent",
+      "_nav",
+      "_arrowLeftFullInfo",
+      "_arrowRightFullInfo",
+      "_btnLeftFullInfo",
+      "_btnRightFullInfo",
+      "_fullInfo",
+      "_itemFullInfoPrefab",
+      "_itemsFullInfoParent",
+      "_selectedIndexFullInfo",
+      "_fullInfoPos0",
+      "_itemsFullInfo",
+      "ShowCountMax",
+      "ShowCountTag",
+      "X0",
+      "MaxItemsWithoutScroll",
+      "AnimTime",
+      "ArrowNormal",
+      "ArrowDisabled",
+      "_items",
+      "_selectedIndex",
+      "_selectedIndexPrev",
+      "_index",
+      "_index0",
+      "_needMove",
+      "_moving",
+      "_cachedX",
+      "_curProduct",
+      "IsOpenFullInfoOnBuyClick",
+      "_initialPondId"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 4389,
+    "name": "PremiumShopRetailItem",
+    "method_count": 25,
+    "field_count": 21,
+    "methods": [
+      "",
+      "SetActive",
+      "",
+      "",
+      "Init",
+      "",
+      "",
+      ".cctor",
+      "",
+      "",
+      "<Init>b__9_0",
+      "",
+      "",
+      "<Init>b__9_2",
+      "",
+      "",
+      ".ctor",
+      "",
+      "",
+      "SetActive",
+      "",
+      "",
+      "Init",
+      "",
+      ""
+    ],
+    "fields": [
+      "_debugId",
+      "_image",
+      "_imageLdbl",
+      "_priceActive",
+      "_currencyActive",
+      "_price",
+      "_currency",
+      "_active",
+      "_notActive",
+      "_purchased",
+      "_rt",
+      "_btnBuy",
+      "_btnSelect",
+      "OnMoveComplete",
+      "OnSelect",
+      "OnBuy",
+      "<Offset>k__BackingField",
+      "XdistBetween",
+      "_product",
+      "ScaleSpeed",
+      "_selectedScale"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8267,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.PremiumShopMouseOverMovement",
+    "method_count": 15,
+    "field_count": 24,
+    "methods": [
+      "InvalidateDistanceCache",
+      "",
+      "",
+      "get_PathLength",
+      "",
+      "",
+      "ToNativePathUnits",
+      "",
+      "",
+      "ResamplePath",
+      "",
+      "",
+      ".ctor",
+      "",
+      ""
+    ],
+    "fields": [
+      "OnStart",
+      "OnMoveAllItems",
+      "<IsPaused>k__BackingField",
+      "IsMovementEnabled",
+      "MouseOverAndMovementAnimSpeedKoef",
+      "_movementPos",
+      "_movementIdxLast",
+      "_isMenuVisible",
+      "_movementType",
+      "_mouseOverAndMovementTime",
+      "_mouseOverAndMovement",
+      "_mouseOverAndMovementLeft",
+      "_camera",
+      "_rtItems",
+      "_isMouse",
+      "_isHome",
+      "_isLastInVisibleRect",
+      "_xBig0",
+      "_diff0",
+      "_diff",
+      "_isPausedLeft",
+      "_isPausedRight",
+      "_mousePositionXLeft",
+      "_mousePositionXRight"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8269,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.PremiumShopParams",
+    "method_count": 1,
+    "field_count": 3,
+    "methods": [
+      ""
+    ],
+    "fields": [
+      "headerPrefab",
+      "itemPrefab",
+      "itemIcoSmallPrefab"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8270,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.PremiumShopHandlerSRIA",
+    "method_count": 6,
+    "field_count": 0,
+    "methods": [
+      "",
+      "Angle",
+      "",
+      "",
+      "SafeFromToRotation",
+      ""
+    ],
+    "fields": []
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8271,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.ViewHolders.PremiumShopBaseVH",
+    "method_count": 2,
+    "field_count": 0,
+    "methods": [
+      "",
+      "SlerpWithReferenceUp"
+    ],
+    "fields": []
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8272,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.ViewHolders.PremiumShopItemIcoSmallVH",
+    "method_count": 4,
+    "field_count": 2,
+    "methods": [
+      "",
+      "",
+      "GetCameraRotationToTarget",
+      ""
+    ],
+    "fields": [
+      "Ico",
+      "_button"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8273,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.ViewHolders.PremiumShopItemVH",
+    "method_count": 6,
+    "field_count": 6,
+    "methods": [
+      "",
+      "Inflated",
+      "",
+      "",
+      ".ctor",
+      ""
+    ],
+    "fields": [
+      "_data",
+      "_description",
+      "_image",
+      "_button",
+      "_imageLdbl",
+      "_descriptionFormat"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8274,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.ViewHolders.HeaderPremiumShopGroupVH",
+    "method_count": 4,
+    "field_count": 1,
+    "methods": [
+      "",
+      "Awake",
+      "",
+      ""
+    ],
+    "fields": [
+      "Name"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8275,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.Models.PremiumShopBaseModel",
+    "method_count": 2,
+    "field_count": 4,
+    "methods": [
+      "StopAction",
+      ""
+    ],
+    "fields": [
+      "ItemId",
+      "Height",
+      "OnSelected",
+      "Count"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8276,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.Models.PremiumShopItemModelIcoSmall",
+    "method_count": 2,
+    "field_count": 1,
+    "methods": [
+      "",
+      "Spawn"
+    ],
+    "fields": [
+      "Ico"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8277,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.Models.PremiumShopItemModel",
+    "method_count": 2,
+    "field_count": 2,
+    "methods": [
+      "",
+      ""
+    ],
+    "fields": [
+      "Description",
+      "ImageBID"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8278,
+    "name": "Assets.Scripts.UI._2D.Shop.PremiumShop.SRIA.Models.HeaderPremiumShopGroupModel",
+    "method_count": 1,
+    "field_count": 1,
+    "methods": [
+      "Release"
+    ],
+    "fields": [
+      "Name"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 8491,
+    "name": "RetailPremiumShopCategories",
+    "method_count": 0,
+    "field_count": 7,
+    "methods": [],
+    "fields": [
+      "value__",
+      "None",
+      "MoneyPacks",
+      "PremiumAccs",
+      "PersonalOffers",
+      "Sales",
+      "FishingPacks"
+    ]
+  },
+  {
+    "test": "premium_type",
+    "type_index": 23399,
+    "name": "Photon.Interfaces.Monetization.PremiumShopSubOperationCode",
+    "method_count": 0,
+    "field_count": 3,
+    "methods": [],
+    "fields": [
+      "value__",
+      "GetOffers",
+      "CompleteOffer"
+    ]
+  },
+  {
+    "test": "premium_method",
+    "method_index": 6330,
+    "name": "get_HasPremium",
+    "parent_type": "PlayerFinalResult",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 81084,
+    "name": "set_HasPremium",
+    "parent_type": "ObjectModel.Player",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 84726,
+    "name": "set_HasPremium",
+    "parent_type": "ObjectModel.Tournaments.TournamentSecondaryResult",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 80352,
+    "name": "set_IsPremium",
+    "parent_type": "ObjectModel.Subscription",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 82665,
+    "name": "get_FreeForPremium",
+    "parent_type": "ObjectModel.Tournament",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 83187,
+    "name": "get_FreeForPremium",
+    "parent_type": "ObjectModel.TournamentTemplate",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 72897,
+    "name": "get_PremiumAccountBonus",
+    "parent_type": "ObjectModel.FishExperienceData",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 49467,
+    "name": "<SetPremiumSalesAvailable>b__4_0",
+    "parent_type": "<>c",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 86070,
+    "name": "set_AvailablePremiumGoldenSpins",
+    "parent_type": "ObjectModel.Fortune.ReelOfFortuneContext",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 5160,
+    "name": "get_AvailableSpinsForPremium",
+    "parent_type": "IReelOfFortuneContext",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_method",
+    "method_index": 86058,
+    "name": "get_AvailableSpinsForPremium",
+    "parent_type": "ObjectModel.Fortune.ReelOfFortuneContext",
+    "token": "0x08000000",
+    "parameter_count": 65535
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 2235,
+    "name": "<HasPremium>k__BackingField",
+    "info": "token=0x040008BC"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 13173,
+    "name": "PremiumShop",
+    "info": "token=0x04003376"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 13175,
+    "name": "PremiumShopRetail",
+    "info": "token=0x04003378"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 13398,
+    "name": "PremiumSalesAvailable",
+    "info": "token=0x04003457"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 14988,
+    "name": "_bgPremium",
+    "info": "token=0x04003A8D"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 14992,
+    "name": "_premiumBgs",
+    "info": "token=0x04003A91"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 14995,
+    "name": "_loadingScreensPremiumNames",
+    "info": "token=0x04003A94"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 16311,
+    "name": "_premiumIcon",
+    "info": "token=0x04003FB8"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 16416,
+    "name": "shopPremiumForm",
+    "info": "token=0x04004021"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 16431,
+    "name": "PremiumShopRetailForm",
+    "info": "token=0x04004030"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 16445,
+    "name": "shopPremiumFormAS",
+    "info": "token=0x0400403E"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 16458,
+    "name": "PremiumShopRetailFormAS",
+    "info": "token=0x0400404B"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 17846,
+    "name": "_premium",
+    "info": "token=0x040045B7"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 17848,
+    "name": "_premiumOn",
+    "info": "token=0x040045B9"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 17849,
+    "name": "_premiumOff",
+    "info": "token=0x040045BA"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 17885,
+    "name": "_hasPremium",
+    "info": "token=0x040045DE"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18046,
+    "name": "MakeCaptainNoPremium",
+    "info": "token=0x0400467F"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18097,
+    "name": "PremiumOn",
+    "info": "token=0x040046B2"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18098,
+    "name": "PremiumOff",
+    "info": "token=0x040046B3"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18491,
+    "name": "_PremiumGo",
+    "info": "token=0x0400483C"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18492,
+    "name": "_PremiumTglColorMgr",
+    "info": "token=0x0400483D"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18499,
+    "name": "PremiumIcon",
+    "info": "token=0x04004844"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18501,
+    "name": "PremiumButton",
+    "info": "token=0x04004846"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18505,
+    "name": "_isPremium",
+    "info": "token=0x0400484A"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 18507,
+    "name": "_premiumColor",
+    "info": "token=0x0400484C"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 19078,
+    "name": "IcoPremiumAccount",
+    "info": "token=0x04004A87"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23206,
+    "name": "NonPremiumMoneyGold",
+    "info": "token=0x04005AA7"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23207,
+    "name": "_nonPremiumMoneyValueGoldTMP",
+    "info": "token=0x04005AA8"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23208,
+    "name": "_nonPremiumMoneyIcoGoldTMP",
+    "info": "token=0x04005AA9"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23209,
+    "name": "PremiumContent",
+    "info": "token=0x04005AAA"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23210,
+    "name": "NoPremiumContent",
+    "info": "token=0x04005AAB"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23212,
+    "name": "_nonPremiumTextElementsTMP",
+    "info": "token=0x04005AAD"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23213,
+    "name": "_premiumTextElementsTMP",
+    "info": "token=0x04005AAE"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23214,
+    "name": "NonPremiumImageElements",
+    "info": "token=0x04005AAF"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23215,
+    "name": "PremiumImageElements",
+    "info": "token=0x04005AB0"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23216,
+    "name": "_nonPremiumActiveElementsColor",
+    "info": "token=0x04005AB1"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23217,
+    "name": "_premiumActiveElementsColor",
+    "info": "token=0x04005AB2"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23219,
+    "name": "_nonPremiumExpValueTMP",
+    "info": "token=0x04005AB4"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23220,
+    "name": "_nonPremiumMoneyValueTMP",
+    "info": "token=0x04005AB5"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23221,
+    "name": "_nonPremiumGoldIcon",
+    "info": "token=0x04005AB6"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23222,
+    "name": "_nonPremiumGoldValueTMP",
+    "info": "token=0x04005AB7"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23223,
+    "name": "_premiumExpValueTMP",
+    "info": "token=0x04005AB8"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23224,
+    "name": "_premiumMoneyValueTMP",
+    "info": "token=0x04005AB9"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23225,
+    "name": "_premiumGoldIcon",
+    "info": "token=0x04005ABA"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23226,
+    "name": "_premiumGoldValueTMP",
+    "info": "token=0x04005ABB"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23228,
+    "name": "_getPremiumButton",
+    "info": "token=0x04005ABD"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23532,
+    "name": "PremiumIcon",
+    "info": "token=0x04005BED"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 23981,
+    "name": "PremiumIcon",
+    "info": "token=0x04005DAE"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25255,
+    "name": "_premium",
+    "info": "token=0x040062A8"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25272,
+    "name": "PremiumPage",
+    "info": "token=0x040062B9"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25275,
+    "name": "PremiumShopButton",
+    "info": "token=0x040062BC"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25429,
+    "name": "PremiumShopPage",
+    "info": "token=0x04006356"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25479,
+    "name": "MoneyPacksAndPremiumAccounts",
+    "info": "token=0x04006388"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25487,
+    "name": "PaddingPremiumAccountAndMoneyPack",
+    "info": "token=0x04006390"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25517,
+    "name": "PremiumAccount",
+    "info": "token=0x040063AE"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 25570,
+    "name": "catsMoneyPacksAndPremiumAccounts",
+    "info": "token=0x040063E3"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 26902,
+    "name": "PremiumColor",
+    "info": "token=0x04006917"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 38548,
+    "name": "PremiumPurchased",
+    "info": "token=0x04009695"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 38823,
+    "name": "<PremiumAccountBonus>k__BackingField",
+    "info": "token=0x040097A8"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 39898,
+    "name": "<ChumGroundbaitsMixTimePremium>k__BackingField",
+    "info": "token=0x04009BDB"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 39899,
+    "name": "<ChumCarpbaitsMixTimePremium>k__BackingField",
+    "info": "token=0x04009BDC"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 39900,
+    "name": "<ChumMethodMixMixTimePremium>k__BackingField",
+    "info": "token=0x04009BDD"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 39903,
+    "name": "<ChumSplitTimePremium>k__BackingField",
+    "info": "token=0x04009BE0"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 39905,
+    "name": "<ChumSplitTimeHandsPremium>k__BackingField",
+    "info": "token=0x04009BE2"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 41628,
+    "name": "PremiumShop",
+    "info": "token=0x0400A29D"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 41831,
+    "name": "<IsPremium>k__BackingField",
+    "info": "token=0x0400A368"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 42094,
+    "name": "<HasPremium>k__BackingField",
+    "info": "token=0x0400A46F"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 42590,
+    "name": "<FreeForPremium>k__BackingField",
+    "info": "token=0x0400A65F"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 42789,
+    "name": "<FreeForPremium>k__BackingField",
+    "info": "token=0x0400A726"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 43446,
+    "name": "<HasPremium>k__BackingField",
+    "info": "token=0x0400A9B7"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 43949,
+    "name": "_AvailableSpinsForPremium",
+    "info": "token=0x0400ABAE"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 43952,
+    "name": "_AvailablePremiumGoldenSpins",
+    "info": "token=0x0400ABB1"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 43965,
+    "name": "ForPremium",
+    "info": "token=0x0400ABBE"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 43970,
+    "name": "Premium",
+    "info": "token=0x0400ABC3"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 49422,
+    "name": "PremiumAccount",
+    "info": "token=0x0400C10F"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 49433,
+    "name": "PremiumAccs",
+    "info": "token=0x0400C11A"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 114913,
+    "name": "PremiumBonusRewardId",
+    "info": "token=0x04000096"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 114958,
+    "name": "PremiumShopError",
+    "info": "token=0x040000C3"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 115322,
+    "name": "PremiumAccount",
+    "info": "token=0x0400022F"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 115392,
+    "name": "PremiumShopOp",
+    "info": "token=0x04000275"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 116054,
+    "name": "Skip_ForPremium",
+    "info": "token=0x0400050B"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 116280,
+    "name": "AvailableSpinsForPremium",
+    "info": "token=0x040005ED"
+  },
+  {
+    "test": "premium_backing_field",
+    "field_index": 116285,
+    "name": "AvailablePremiumGoldenSpins",
+    "info": "token=0x040005F2"
+  }
+]
