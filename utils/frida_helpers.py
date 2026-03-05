@@ -35,14 +35,28 @@ def is_game_running() -> bool:
 
 
 def get_game_pid() -> Optional[int]:
-    """Get the PID of the running game process."""
+    """Get the PID of the actual game process (not launcher wrappers)."""
     result = subprocess.run(
         ["pgrep", "-f", PROCESS_NAME],
         capture_output=True, text=True,
     )
-    if result.returncode == 0 and result.stdout.strip():
-        return int(result.stdout.strip().splitlines()[0])
-    return None
+    if result.returncode != 0 or not result.stdout.strip():
+        return None
+
+    # Multiple PIDs may match (launcher wrappers, reaper, etc.)
+    # Find the one that actually has GameAssembly.so loaded
+    for line in result.stdout.strip().splitlines():
+        pid = int(line.strip())
+        try:
+            maps = Path(f"/proc/{pid}/maps").read_text()
+            if "GameAssembly.so" in maps:
+                return pid
+        except (PermissionError, FileNotFoundError, OSError):
+            continue
+
+    # Fallback: return the last PID (usually the actual binary)
+    pids = [int(p.strip()) for p in result.stdout.strip().splitlines()]
+    return pids[-1] if pids else None
 
 
 def attach_to_game() -> Optional["frida.core.Session"]:
